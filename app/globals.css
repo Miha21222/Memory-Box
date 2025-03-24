@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+.sonsie-one-regular {
+  font-family: "Sonsie One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.font {
+  background: linear-gradient(180.00deg, rgb(197, 238, 179),rgb(113, 158, 118));
+  -webkit-background-clip:
+          text;
+  -webkit-text-fill-color:
+          transparent;
+  background-clip:
+          text;
+  text-fill-color:
+          transparent;
+  font-family: "Sonsie One", serif;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 78px;
+  letter-spacing: 0;
+  text-align: center;
+  filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 1)) drop-shadow(0px 0px 1px rgba(0, 0, 0, 1)) drop-shadow(0px 0px 1px rgba(0, 0, 0, 1)) drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.8));
+}
+
+
+.green_hover:hover{
+  filter: drop-shadow(0px 0px 7px rgba(106, 247, 111, 1));
+}
